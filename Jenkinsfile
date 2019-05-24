@@ -9,8 +9,8 @@ pipeline {
     }
 
     environment {
-        ORG_NAME = "babilonio"
-        APP_NAME = "sboatella-pipelines"
+        ORG_NAME = "deors"
+        APP_NAME = "workshop-pipelines"
         APP_CONTEXT_ROOT = "/"
         APP_LISTENING_PORT = "8080"
         TEST_CONTAINER_NAME = "ci-${APP_NAME}-${BUILD_NUMBER}"
